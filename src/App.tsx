@@ -4,10 +4,13 @@ import {Container} from "react-bootstrap"
 import { Home } from "./pages/Home"
 import { Store } from "./pages/Store"
 import { About } from "./pages/About"
+import { Navbar } from "./components/Navbar"
 
 function App() {
   return (
-  <Container>
+  <>
+  <Navbar />
+  <Container className="mb-4">
   <h1>React Typescript Shopping Cart</h1>
   <Routes>
     <Route path="/" element={<Home/>} />
@@ -15,6 +18,7 @@ function App() {
     <Route path="/about" element={<About/>} />
   </Routes>
   </Container>
+  </>
   )
 }
 
