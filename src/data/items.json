@@ -1,22 +1,16 @@
 [
-{"id": 1,
-"name": "Book",
-"book": "22.95",
-"imgUrl": "/images/book.jpg"
-},
-{"id": 2,
-"name": "Laptop",
-"book": "599.95",
-"imgUrl": "/images/laptop.jpg"
-},
-{"id": 3,
-"name": "Fruit Basket",
-"book": "43.95",
-"imgUrl": "/images/fruitbasket.jpg"
-},
-{"id": 4,
-"name": "Car",
-"book": "5995",
-"imgUrl": "/images/car.jpg"
-},
+  { "id": 1, "name": "Book", "price": "22.95", "imgUrl": "/images/book.jpg" },
+  {
+    "id": 2,
+    "name": "Laptop",
+    "price": "599.95",
+    "imgUrl": "/images/laptop.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Fruit Basket",
+    "price": "43.95",
+    "imgUrl": "/images/fruitbasket.jpg"
+  },
+  { "id": 4, "name": "Car", "price": "5995", "imgUrl": "/images/car.jpg" }
 ]
