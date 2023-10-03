@@ -50,7 +50,7 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
   function decreaseCartQuantity(id: number) {
     setCartItems((currItems) => {
       //if it is an item of quantity 1, remove from the cart list (return a brand new list without the item)
-      //if item doesn't actually exist in cart then?
+      //if item doesn't actually exist in cart then decrease button won't show (getItemQuantity returns 0, StoreItem logic)
       if (currItems.find((item) => item.id === id)?.quantity === 1) {
         return currItems.filter((item) => item.id !== id);
       } else {
